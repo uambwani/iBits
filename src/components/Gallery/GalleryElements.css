@@ -1,0 +1,36 @@
+/* import styled from "styled-components"; */
+
+.item {
+  min-height: 10rem;
+  min-width: 20rem;
+  padding: 40px;
+}
+
+.item img {
+  height: 100%;
+  width: 100%;
+  pointer-events: none;
+}
+
+.item.target:hover {
+  transform: scale(1.1);
+  transition-timing-function: ease-in;
+  transition: 0.2s;
+}
+
+.inner-carousel {
+  display: flex;
+  background: #feffec;
+}
+
+.carousel {
+  padding: 30px;
+  cursor: grab;
+  overflow: hidden;
+  background: #eee2dc;
+  text-align: center;
+}
+
+.arrowsClass {
+  color: black;
+}
