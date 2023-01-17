@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const TeamContainer = styled.div`
   color: #fff;
+  height: 100vh;
   background: ${({ lightBg }) => (lightBg ? "#EEE2DC" : "#121214")};
 
   /* E7E3D4 0C0C0D*/
