@@ -41,14 +41,14 @@ export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
   grid-area: col1;
-  /* padding-left: 50px; */
 `;
 
 export const Column2 = styled.div`
-  /* margin-bottom: 15px; */
-  /* padding-bottom: 100px; */
   padding: 0 15px;
   grid-area: col2;
+  @media screen and (max-width: 825px) {
+    display: none;
+  }
 `;
 
 export const TextWrapper = styled.div`
